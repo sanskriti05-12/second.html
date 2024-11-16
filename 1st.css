@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.hero{
+    height: 100vh;
+    background : url('https://media.istockphoto.com/id/1497379890/photo/blue-sky-in-summer-sunlight-sunny-day.webp?a=1&b=1&s=612x612&w=0&k=20&c=HC2sqJ3uzycR1NR4v45kCm-CTDSldrePBA3uSiCt8CA=');
+    text-align: center;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+.hero h1,
+.hero p{
+    color: red;
+}
+.hero h1 {
+    font-size: 60px;
+}
+hero p {
+    font-size: 50px;
+    margin: 20px 0px;
+}
+.btn{
+    background-color: black;
+    border: black;
+}
+.main{
+   text-align: center; 
+   background-color: yellow;
+   color: rebeccapurple;
+   height: 60px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: red;
+   border-radius: 20px;
+   border-top: 13px solid red;
+   border-bottom: 13px solid blue;
+   border-left: 13px dashed green;
+   border-right:13px dashed pink ;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius: 50%;
+}
